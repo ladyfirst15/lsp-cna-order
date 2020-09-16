@@ -133,7 +133,7 @@ phases:
             name: dr-order
             namespace: teamc
           spec:
-            host: order
+            host: $_PROJECT_NAME
             trafficPolicy:
               connectionPool:
                 http:
